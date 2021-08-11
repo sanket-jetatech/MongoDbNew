@@ -1,4 +1,4 @@
-# FirstRest
+# Node API with Mongo and Mongoose
 Create Rest Api using Node.js, Express and Mongodb
 
 In the project directory, you can run:
