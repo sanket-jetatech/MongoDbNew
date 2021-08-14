@@ -21,11 +21,10 @@ else
     console.log("DB Connected Successfully");
 
 var port = process.env.PORT || 8080;
+app.use(express.json())
 
 app.get('/', (req, res) => res.send('Welcome to Express'));
-
 app.use('/api', apiRoutes)
-
 app.listen(port, function () {
     console.log("Running FirstRest on Port " + port);
 });
